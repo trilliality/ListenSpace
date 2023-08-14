@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+
+body{
+   background-color: black;
+    overflow-y: hidden;
+
+}
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+footer{
+    text-align: center;
+}
+.container2{
+    display: inline-flex;
+    padding: 50px;
+    gap: 15px;
+    
+}
+.planet{
+    height: 150px;
+    width: 150px;
+    border: 10px solid rgb(235, 227, 106);
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+    font-size: 3vh;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    opacity: 0.95;
+}
+
+.planet:hover{
+    transform: translateY(-15px) ;
+}
+
+.a{
+    background-image: url("images/mercury.jpg");
+    background-position: center ;
+}
+.b{
+    background-image: url("images/venus.jpg");
+    background-position: center;
+}
+.c{
+    background-image: url("images/earth.jpg");
+    background-position: center;
+}
+.d{
+    background-image: url("images/mars.jpg");
+    background-position: center;
+}
+.e{
+    background-image: url("images/saturn1.jpg");
+    background-image: center;
+}
+.f{
+    background-image:url("images/juipiter.jpg") ;
+    background-position: center;
+}
+.g{
+    background-image: url("images/uranus.jpg");
+    background-position: center;
+}
+
+.h{
+    background-image: url("images/download.jpg");
+    background-position: center;
+}
+
+.heading{
+    font-family: 'Courgette', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Zeyada', cursive;
+    font-size: 10vh;
+    margin:20px 0px;
+    font-weight: 600;
+    color: hsl(184, 47%, 87%);
+    letter-spacing: 6px;
+    text-shadow: 2px 3px 8px #03b3ff;
+    text-shadow: 0 ;
+}
+
+footer{
+    top: 20vh;
+    font-family: 'Satisfy', cursive;
+    font-size: 3vh;
+    color: azure;
+}
+video{
+    height: 120vh;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.overlay{
+    position: absolute;
+}
